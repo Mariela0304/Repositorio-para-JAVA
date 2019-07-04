@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MCPatoLibreria:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MCPatoLibreria_jar</output-path>
+    <root id="archive" name="MCPatoLibreria.jar">
+      <element id="module-output" name="MCPatoLibreria" />
+    </root>
+  </artifact>
+</component>

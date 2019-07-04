@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="523.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonilla.mariela.ui.InfoSubastaControllerModerador">
+   <children>
+      <Label layoutX="494.0" layoutY="174.0" text="Fecha de vencimiento" />
+      <Label fx:id="posicion_tiempo" layoutX="41.0" layoutY="138.0" prefHeight="17.0" prefWidth="164.0" />
+      <Label fx:id="posicion_fecha" layoutX="246.0" layoutY="138.0" prefHeight="17.0" prefWidth="115.0" />
+      <TableView fx:id="tabla_ofertas" layoutX="68.0" layoutY="268.0" prefHeight="230.0" prefWidth="310.0">
+         <columns>
+            <TableColumn prefWidth="153.0" text="Oferta " />
+            <TableColumn prefWidth="156.0" text="Oferente" />
+         </columns>
+      </TableView>
+      <Label layoutX="76.0" layoutY="230.0" text="Precio mínimo -&gt;" />
+      <JFXButton fx:id="btn_ver_items" buttonType="RAISED" layoutX="529.0" layoutY="351.0" onAction="#ver_items_subasta" ripplerFill="#bf7901" style="-fx-background-color: #000;" text="Ver ítems" textFill="#f8f8f8" />
+      <JFXButton fx:id="btn_vencer_subasta" layoutX="475.0" layoutY="310.0" mnemonicParsing="false" onAction="#marcarSubastaVencida" style="-fx-background-color: #000;" text="Marcar subasta como vencida" textFill="WHITE" />
+      <Label layoutX="442.0" layoutY="48.0" text="Estado:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="posicion_estado" layoutX="494.0" layoutY="48.0" prefHeight="17.0" prefWidth="164.0" />
+      <Label fx:id="posicion_precio" layoutX="175.0" layoutY="230.0" prefHeight="17.0" prefWidth="143.0" />
+      <ImageView fx:id="botom_cerrar" fitHeight="17.0" fitWidth="17.0" layoutX="695.0" layoutY="6.0" onMouseClicked="#cerrarApp">
+         <image>
+            <Image url="@../images/equis_24px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="boton_minimizar" fitHeight="25.0" fitWidth="17.0" layoutX="667.0" layoutY="2.0" onMouseClicked="#salirVentana">
+         <image>
+            <Image url="@../images/horizontal_line_filled_15px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="175.0" layoutY="102.0" text="Tiempo restante" />
+      <TableView fx:id="tabla_temporizador" layoutX="68.0" layoutY="140.0" prefHeight="68.0" prefWidth="301.0" style="-fx-border-color: #000;">
+         <columns>
+            <TableColumn fx:id="annos" prefWidth="41.0" resizable="false" text="Años" />
+            <TableColumn fx:id="meses" prefWidth="43.0" resizable="false" text="Meses" />
+            <TableColumn fx:id="dias" prefWidth="36.0" resizable="false" text="Días" />
+            <TableColumn fx:id="horas" prefWidth="46.0" resizable="false" text="Horas" />
+            <TableColumn fx:id="minutos" prefWidth="60.0" resizable="false" text="Minutos" />
+            <TableColumn fx:id="segundos" prefWidth="74.0" resizable="false" text="Segundos" />
+         </columns>
+      </TableView>
+      <Label layoutX="238.0" layoutY="25.0" text="Subasta">
+         <font>
+            <Font name="Harlow Solid Italic" size="38.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

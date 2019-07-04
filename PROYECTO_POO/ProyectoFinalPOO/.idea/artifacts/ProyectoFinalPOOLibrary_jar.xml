@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProyectoFinalPOOLibrary:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProyectoFinalPOOLibrary_jar</output-path>
+    <root id="archive" name="ProyectoFinalPOOLibrary.jar">
+      <element id="module-output" name="ProyectoFinalPOOLibrary" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/librerias/controlsfx-8.40.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/librerias/jfoenix-8.0.8-retrolambda.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/librerias/sqljdbc42.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AccesoADatos/out/artifacts/AccesoADatos_jar/AccesoADatos.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

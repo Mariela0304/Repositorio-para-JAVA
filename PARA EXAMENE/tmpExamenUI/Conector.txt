@@ -1,0 +1,1 @@
+com.microsoft.sqlserver.jdbc.SQLServerDriver,jdbc:sqlserver,MARIELABONILLA3,ParqueoLosRobaCarrosBD,MarielaBonilla,1234

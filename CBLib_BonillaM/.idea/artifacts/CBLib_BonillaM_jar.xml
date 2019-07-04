@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CBLib_BonillaM:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CBLib_BonillaM_jar</output-path>
+    <root id="archive" name="CBLib_BonillaM.jar">
+      <element id="module-output" name="CBLib_BonillaM" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

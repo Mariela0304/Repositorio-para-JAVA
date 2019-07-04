@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="practicaexamenlibrary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../practicaexamenlibrary/out/artifacts/practicaexamenlibrary_jar/practicaexamenlibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

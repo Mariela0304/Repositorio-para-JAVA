@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="parqueo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../bonillamariela_examen/parqueo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

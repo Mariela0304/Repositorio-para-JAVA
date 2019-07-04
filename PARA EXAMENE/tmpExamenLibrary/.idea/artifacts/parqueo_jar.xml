@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="parqueo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/parqueo_jar</output-path>
+    <root id="archive" name="parqueo.jar">
+      <element id="module-output" name="parqueo" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/librerias/sqljdbc42.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AccesoADatos/out/artifacts/AccesoADatos_jar/AccesoADatos.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

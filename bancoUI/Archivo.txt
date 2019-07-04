@@ -1,0 +1,21 @@
+
+Cuenta corriente,2019-04-04,89200.0,1234567
+Cuenta corriente,2019-04-04,-9200.0,1234567
+Cuenta corriente,2019-04-04,800.0,1234567
+Cuenta corriente,2019-04-04,10800.0,1234567
+Cuenta de ahorro programado,2019-04-04,30800.0,90876576,1234567
+Cuenta corriente,2019-04-04,10800.0,1234567
+Cuenta de ahorro programado,2019-04-04,40800.0,90876576,1234567
+Cuenta corriente,2019-04-04,10800.0,1234567
+Cuenta de ahorro programado,2019-04-04,50800.0,90876576,1234567
+Cuenta corriente,2019-04-04,10800.0,1234567
+Cuenta de ahorro programado,2019-04-04,60800.0,90876576,1234567
+Cuenta corriente,2019-04-04,800.0,1234567
+Cuenta corriente,2019-04-04,20800.0,1234567
+Cuenta de ahorro programado,2019-04-04,40800.0,90876576,1234567
+Cuenta corriente,2019-04-04,20800.0,1234567
+Cuenta de ahorro programado,2019-04-04,50800.0,90876576,1234567
+Cuenta corriente,2019-04-04,20800.0,1234567
+Cuenta de ahorro programado,2019-04-04,60800.0,90876576,1234567
+Cuenta corriente,2019-04-04,20800.0,1234567
+Cuenta de ahorro programado,2019-04-04,70800.0,90876576,1234567

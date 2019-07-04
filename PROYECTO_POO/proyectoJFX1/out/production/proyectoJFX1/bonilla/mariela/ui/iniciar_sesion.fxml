@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pginiciarSesion" prefHeight="575.0" prefWidth="409.0" style="-fx-background-color: #f7f1e3; -fx-border-color: #ffb142;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonilla.mariela.ui.ControllerIniciarSesion">
+   <children>
+      <TextField fx:id="usuario_inicio" layoutX="66.0" layoutY="187.0" prefHeight="37.0" prefWidth="272.0" promptText="Ingrese su nombre de usuario " text="mgomez@gmail.com">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <PasswordField fx:id="contrasenna_inicio" layoutX="66.0" layoutY="269.0" prefHeight="37.0" prefWidth="272.0" promptText="Ingrese su contraseña" text="123456">
+         <font>
+            <Font size="13.0" />
+         </font></PasswordField>
+      <Label layoutX="107.0" layoutY="80.0" text="Iniciar Sesión" textFill="#bf6000">
+         <font>
+            <Font name="Arial Bold" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="boton_inicio" layoutX="66.0" layoutY="327.0" mnemonicParsing="false" onAction="#validarCredenciales" prefHeight="37.0" prefWidth="272.0" style="-fx-background-color: #ffb142;" text="Ingresar" textOverrun="LEADING_WORD_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Berlin Sans FB" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="362.0" layoutY="18.0">
+         <image>
+            <Image url="@../images/equis_24px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="358.0" layoutY="45.0" text="Cerrar" />
+      <Button fx:id="btn_cerrar" focusTraversable="false" layoutX="353.0" layoutY="14.0" mnemonicParsing="false" onAction="#cerrarApp" prefHeight="56.0" prefWidth="42.0" style="-fx-background-color: none;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="66.0" layoutY="168.0" prefHeight="19.0" prefWidth="264.0" text="Nombre de usuario o correo electrónico">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="250.0" text="Contraseña">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="irRegistroUsuario" layoutX="66.0" layoutY="468.0" mnemonicParsing="false" onAction="#irRegistroUsuario" prefHeight="37.0" prefWidth="272.0" style="-fx-background-color: #ffb142;" text="Registrarse">
+         <font>
+            <Font name="Berlin Sans FB" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="47.0" layoutY="540.0" text="Volver al menú" />
+      <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="14.0" layoutY="536.0">
+         <image>
+            <Image url="@../images/home_filled_24px.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_volverMenuP1" focusTraversable="false" layoutX="4.0" layoutY="530.0" mnemonicParsing="false" onAction="#irMenuInicio" prefHeight="37.0" prefWidth="129.0" style="-fx-background-color: none;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="69.0" layoutY="409.0" prefHeight="49.0" prefWidth="272.0" text="Si no se encuentra previamente registrado, puede hacerlo a conctinuación" wrapText="true" />
+   </children>
+</AnchorPane>

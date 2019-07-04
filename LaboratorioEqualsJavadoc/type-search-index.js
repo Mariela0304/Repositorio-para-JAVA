@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"bonilla.mariela.logica","l":"Cirujano"},{"p":"bonilla.mariela.ui","l":"Main"},{"p":"bonilla.mariela.logica","l":"Medico"},{"p":"bonilla.mariela.logica","l":"Paciente"},{"p":"bonilla.mariela.logica","l":"Persona"}]

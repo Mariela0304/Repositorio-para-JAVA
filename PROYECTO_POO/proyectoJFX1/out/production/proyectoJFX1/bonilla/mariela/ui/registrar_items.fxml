@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="602.0" prefWidth="861.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonilla.mariela.ui.RegistrarItemsController">
+   <children>
+      <Label layoutX="321.0" layoutY="35.0" prefHeight="37.0" prefWidth="228.0" text="Registrar ítems" textAlignment="CENTER" textFill="#bf6000">
+         <font>
+            <Font name="Harlow Solid Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="121.0" text="Nombre" />
+      <Label layoutX="146.0" layoutY="226.0" text="Descripción" />
+      <Label layoutX="149.0" layoutY="346.0" text="Estado" />
+      <Label layoutX="533.0" layoutY="184.0" text="Fecha de compra" />
+      <Label layoutX="538.0" layoutY="306.0" text="Antigüedad" />
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="830.0" layoutY="18.0" onMouseClicked="#cerrarApp">
+         <image>
+            <Image url="@../images/equis_24px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="17.0" layoutX="802.0" layoutY="14.0" onMouseClicked="#salirVentana">
+         <image>
+            <Image url="@../images/horizontal_line_filled_15px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <JFXComboBox fx:id="comboBoxEstados" layoutX="146.0" layoutY="369.0" onAction="#llenarEstados" prefHeight="25.0" prefWidth="211.0" />
+      <JFXDatePicker fx:id="textFechaCompra" defaultColor="#c34b00" editable="false" layoutX="536.0" layoutY="201.0" onAction="#obtenerAntiguedad" prefHeight="25.0" prefWidth="202.0" />
+      <JFXTextArea fx:id="textDescripcion" layoutX="144.0" layoutY="259.0" prefHeight="56.0" prefWidth="202.0" />
+      <JFXTextField fx:id="textNombre" layoutX="144.0" layoutY="146.0" prefHeight="25.0" prefWidth="202.0" />
+      <JFXTextField fx:id="calculateAntiguedad" layoutX="533.0" layoutY="333.0" prefHeight="25.0" prefWidth="211.0" />
+      <JFXButton layoutX="503.0" layoutY="512.0" onAction="#registrarItems" prefHeight="42.0" prefWidth="195.0" ripplerFill="#d06b00" style="-fx-border-color: #000;" text="Guardar ítem en mi colección" />
+      <JFXButton buttonType="RAISED" layoutX="187.0" layoutY="512.0" onAction="#irMenu" prefHeight="42.0" prefWidth="188.0" ripplerFill="BLACK" style="-fx-border-color: #FF9A00;" text="Volver" />
+      <ImageView layoutX="187.0" layoutY="520.0">
+         <image>
+            <Image url="@../images/left_25px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

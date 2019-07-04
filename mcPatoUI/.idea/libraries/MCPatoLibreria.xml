@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MCPatoLibreria">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MCPatoLibreria/out/artifacts/MCPatoLibreria_jar/MCPatoLibreria.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
